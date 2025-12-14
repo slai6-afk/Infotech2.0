@@ -26,7 +26,7 @@ function saveDiary() {
     }
             //create a new div block for the diary entry card, by using a DOM(createElement), this part is teached by Chatgp, about how to use correct DOM//
     var entry = document.createElement("div");
-    entry.className = "entry-card"; //use css style "entry-card" for the new div//
+    entry.className = "card"; //use css style "card" for the new div//
             //before i can;t get the date to be print with other info, so i ask ai how to make it turing to string or text//
             // it gets today's date, and format it to local date style//  
     var today = new Date().toLocaleDateString();

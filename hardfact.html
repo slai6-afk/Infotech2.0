@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Hard Facts</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<!-- Site Header -->
+<div class="header">
+  <div class="header-title">
+    The Living Garden
+  </div>
+
+  <div class="nav">
+    <a href="index.html">Home</a>
+    <a href="diary.html">Diary</a>
+    <a href="hardfact.html">Hard Facts</a>
+    <a href="knowmore.html">Know More</a>
+    <a href="about.html">About</a>
+  </div>
+</div>
+
+
+<body>
+
+  <h1 class="title">Hard Facts</h1>
+  <p class="subtitle">Tiny garden science, try to learn something new!</p>
+  <div class="card hf-hero">
+    <img src="assets/Tutor-character.svg" class="hf-hero-icon" alt="Garden guide character">
+    <div>
+      <h2 class="title">Today's garden tips</h2>
+      <p class="text">
+        Click the bars to learn. Try the mini quiz at the end.
+      </p>
+    </div>
+  </div>
+
+  <h2 class="title">Core Ideas</h2>
+  <div class="block">
+    <p class="hint">
+        Click the buttons to learn more about these terms.
+    </p>
+    <div class="bar" onclick="dropdown('ideaTrees')">
+      Trees
+    </div>
+    <div class="option" id="ideaTrees" style="display:none;">
+    <p>
+    Trees have roots, a trunk, branches, and leaves. Roots drink water and take nutrients from soil.
+    Leaves help trees breathe and make oxygen for us.
+    </p>
+    </div>
+
+    <div class="bar" onclick="dropdown('ideaPhoto')">
+      Photosynthesis
+    </div>
+    <div class="option" id="ideaPhoto" style="display:none;">
+    <p>
+    Photosynthesis means plants make food using sunlight, water, and air (carbon dioxide).
+    That is why plants need light and water to grow.
+    </p>
+    </div>
+
+    <div class="bar" onclick="dropdown('ideaSoil')">
+      Soil
+    </div>
+    <div class="option" id="ideaSoil" style="display:none;">
+    <p>
+    Soil holds water and nutrients. Healthy soil is not just dirt—there can be tiny living things inside.
+    Soil helps roots stay strong and feed the plant.
+    </p>
+    </div>
+
+    <div class="bar" onclick="dropdown('ideaBugs')">
+      Bugs
+    </div>
+    <div class="option" id="ideaBugs" style="display:none;">
+    <p>
+    Some bugs help gardens (like bees). Some bugs hurt plants (like aphids).
+    We should observe first, then choose a gentle way to protect the plant.
+    </p>
+    </div>
+  </div>
+
+  <h2 class="title">Mini Quiz</h2>
+  <p class="hint">Click one option. Green = correct. Red = try again.</p>
+  <div class="card question" id="q1">
+    <p class="q"><strong>Q1:</strong> What is essencial for plants?</p>
+  <div class="option" onclick="checkAnswer('q1', this, false)">Plastic</div>
+  <div class="option" onclick="checkAnswer('q1', this, true)">Sunlight</div>
+  <div class="option" onclick="checkAnswer('q1', this, false)">Candy</div>
+</div>
+
+  <div class="card question" id="q2">
+    <p class="q"><strong>Q2:</strong> Roots mainly help a plant:</p>
+    <div class="option" onclick="checkAnswer('q2',this, false)">Fly</div>
+    <div class="option" onclick="checkAnswer('q2',this, true)">Drink water and take nutrients</div>
+    <div class="option" onclick="checkAnswer('q2',this, false)">Make sounds</div>  
+  </div>
+  <div class="card question"id="q3">
+    <p class="q"><strong>Q3:</strong> Which is a helpful garden bug?</p>
+    <div class="option" onclick="checkAnswer('q3',this, true)">Bee</div>
+    <div class="option" onclick="checkAnswer('q3',this, false)">aphids</div>
+    <div class="option" onclick="checkAnswer('q3',this, false)">Caterpillar</div>
+  </div>
+
+  <script src="hardfact.js"></script>
+</body>
+</html>
+

@@ -1,0 +1,170 @@
+/* Header container */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 16px 24px;
+  border-bottom: 1px solid #ddd;
+  background: white;
+}
+
+/* Site title on the left */
+.header-title {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+/* Navigation links on the right */
+.nav a {
+  margin-left: 20px;
+  text-decoration: none;
+  color: #333;
+  font-size: 16px;
+}
+
+/* Hover effect (very simple) */
+.nav a:hover {
+  text-decoration: underline;
+}
+
+body {
+    font-family: Arial;
+    padding: 20px;
+    background: #f7f7f7;
+    color: #333;
+}
+
+.title {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 28px;
+}
+
+.subtitle {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #666;
+}
+/* button list style */
+.allbuttons {
+    display: flex;
+    gap: 12px;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+/* single style */
+.button{
+    border: 1px solid #ccc;
+    background: white;
+    border-radius: 10px;
+    padding: 12px;
+    width: 120px;
+    text-align: center;
+}
+
+.button:hover {
+    background: #2a682d1c;
+}
+
+.icon {
+    width: 36px;
+    height: 36px;
+    margin-bottom: 6px;
+}
+
+.selected {
+    border-color: #000000;
+    background: #e9e9e9;
+}
+
+/* single style */
+
+
+
+/* input */
+.diary-input {
+    width: 100%;
+    height: 80px;
+    padding: 12px;
+    border-radius: 8px;
+    border: 1px solid #bbb;
+    margin-bottom: 15px;
+    font-size: 14px;
+}
+
+/* savebutton */
+.save {
+    width: 20%;
+    background: black;
+    color: white;
+    padding: 10px 10px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.diary-list {
+    margin-top: 10px;
+}
+
+.card {
+    background: white;
+    border: 1px solid #ddd;
+    padding: 12px;
+    border-radius: 8px;
+    margin-top: 12px;
+    line-height: 2;
+}
+
+.hf-hero {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+
+.hf-section-title {
+  text-align: center;
+  margin: 26px 0 12px 0;
+}
+
+.block {
+  max-width: 800px;
+  margin: 0 auto 10px auto;
+}
+
+.bar {
+  border: 1px solid #ccc;
+  background: white;
+  border-radius: 10px;
+  padding: 12px;
+  cursor: pointer;
+  margin-bottom: 8px;
+}
+
+
+.hint {
+  text-align: center;
+  color: #666;
+  margin-bottom: 12px;
+}
+
+.question {
+  max-width: 800px;
+  margin: 0 auto 12px auto;
+}
+
+.q {
+  margin-top: 0;
+  margin-bottom: 8px;
+}
+
+.option {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 10px;
+  margin-bottom: 8px;
+  background: white;
+  cursor: pointer;
+}
