@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Beyond Garden</title>
+  <link rel="stylesheet" href="main.css">
+  <script src="beyond-garden.js" defer></script>
+</head>
+
+<body>
+  <div class="header">
+    <div class="header-title">The Living Garden</div>
+
+    <div class="nav">
+      <a href="index.html">Home</a>
+      <a href="diary.html">Diary</a>
+      <a href="hardfact.html">Hard Facts</a>
+      <a href="knowmore.html">Know More</a>
+      <a href="about.html">About</a>
+    </div>
+  </div>
+
+  <main>
+    <div class="map-wrapper">
+      <div class="tutor">
+        <img src="assets/tutor.svg" class="tutorimage">
+      </div>
+
+      <div class="map">
+        <img src="assets/map.png" class="mapimage">
+      </div>
+    </div>
+
+    <div class="content-center">
+  <div class="button-group">
+    <button class="borough-btn" data-borough="manhattan">Manhattan</button>
+    <button class="borough-btn" data-borough="brooklyn">Brooklyn</button>
+    <button class="borough-btn" data-borough="queens">Queens</button>
+    <button class="borough-btn" data-borough="bronx">The Bronx</button>
+    <button class="borough-btn" data-borough="staten">Staten Island</button>
+  </div>
+
+  <p id="selected-borough">Selected: none</p>
+  <div id="parks-list"></div>
+</div>
+
+  </main>
+</body>
+</html>
