@@ -168,3 +168,127 @@ body {
   background: white;
   cursor: pointer;
 }
+
+
+.tutorimage{
+  width:160px;
+  height: auto;
+  margin-top: 500px;
+}
+
+.map-wrapper{
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  width:fit-content;
+  margin: 0 auto;
+  max-width: 100%;
+  padding-right: 36px;
+  padding-top: 5%;
+}
+
+.map-image{
+  width:520px;
+  height: auto;
+  max-width: 100%;
+ 
+
+
+}
+
+.button-group{
+  display: flex;
+  gap: 12px;
+  align-items:center;
+  justify-content: center;
+  margin: 24px auto;
+  width:100%;
+  padding-left: 70px;
+  text-align: center;
+
+}
+
+.borough-btn{
+  border: 1px solid #ccc;
+    background: white;
+    border-radius: 10px;
+    padding: 12px;
+    width: 120px;
+    text-align: center;
+
+
+    
+}
+.borough-btn.active{
+  background: #29b553;
+  color: white;
+  border-color: #29b553;
+}
+
+#selected-borough{
+  text-align: center;
+  margin: 12px 0;
+}
+
+#parks-list{
+  width: 500px;
+  max-width: 90%;
+  margin: 0 auto;
+  text-align: left;
+
+ 
+}
+
+.park-card{
+  border: 1px solid #29b553;
+  background: white;
+  border-radius: 12px;
+padding: 14px 16px;
+margin: 10px 0;
+}
+
+
+.park-card b{
+  display: block;
+  font-size: 18px;
+  margin-bottom: 4px;
+}
+
+.content-center{
+  width: 720px;
+  max-width: 92%;
+  margin: 0 auto;
+}
+
+.member{
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+  margin: 24px 0;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 24px;
+}
+
+.member img{
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.member-text{
+  flex: 1;
+}
+.about-intro{
+  margin-bottom: 40px;
+}
+.about-wrapper{
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+.about-title{
+  text-align: center;
+  letter-spacing: 2px;
+  margin: 40px 0 20px 0;
+}
+
