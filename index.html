@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+<meta charset="UTF-8">
+<title>Garden</title>
+<link rel="stylesheet" type="text/css" href="finalproject.css">
+</head> 
+<body>
+    <div class="header">
+  <div class="header-title">
+    The Living Garden
+  </div>
+
+  <div class="nav">
+    <a href="index.html">Home</a>
+    <a href="diary.html">Diary</a>
+    <a href="hardfact.html">Hard Facts</a>
+    <a href="knowmore.html">Know More</a>
+    <a href="about.html">About</a>
+  </div>
+</div>
+    <div id="container">
+        <div class="citylist">
+            <div class="city" data-city="tokyo" onclick="selectCity('tokyo')">
+                <img src="assets/location.png">
+                <span>Tokyo</span>
+            </div>
+            <div class="city" data-city="newyork" onclick="selectCity('newyork')">
+                <img src="assets/location.png">
+                <span>New York</span>
+            </div>
+            <div class="city" data-city="paris" onclick="selectCity('paris')">
+                <img src="assets/location.png">
+                <span>Paris</span>
+            </div>
+            <div class="city" data-city="london" onclick="selectCity('london')">
+                <img src="assets/location.png">
+                <span>London</span>
+            </div>
+            <div class="city" data-city="beijing" onclick="selectCity('beijing')">
+                <img src="assets/location.png">
+                <span>Beijing</span>
+            </div>
+            <div class="city" data-city="sydney" onclick="selectCity('sydney')">
+                <img src="assets/location.png">
+                <span>Sydney</span>
+            </div>
+        </div>
+
+        <div class="boxandvisual">
+            
+            <div class="box top-left">
+                <p>Weather</p>
+            </div>
+            
+            <div class="box top-right">
+                <p>Location</p>
+            </div>
+            
+            <div class="tree-visual">
+                <div class="weather-visual"></div>
+                <img src="assets/tree.png">
+            </div>
+
+            <div class="box bottom-left">
+                <p>Hard Fact</p>
+            </div>
+            
+            <div class="box bottom-right">
+                <p class="interaction">Human & Nature</p>
+                <div class="interaction-box">
+                    <div class="interaction-png"><img src="assets/Fertilize.png"></div>
+                    <div class="interaction-png"><img src="assets/Water.png"></div>
+                    <div class="interaction-png"><img src="assets/Loosen Soil.png"></div>
+                    <div class="interaction-png"><img src="assets/Remove Bugs.png"></div>
+                </div>
+
+                <a href="diary.html" class="diary-button">
+                    Go to diary
+                </a>
+            </div>
+
+        </div>
+    </div>
+
+    <script src="script_home.js"></script>
+</body>
+</html>
