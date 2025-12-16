@@ -1,18 +1,17 @@
-// 1) Get all borough buttons (DOM: find elements by class name)
-
+// Get all borough buttons 
 var buttons = document.getElementsByClassName("borough-btn");
 
 // Debug: check we found 5 buttons
 console.log("buttons:", buttons.length);
 
 
-// 2) Get the text area + list area (DOM: find elements by id)
+// Get the text area + list area (DOM: find elements by id)
 
 var selectedText = document.getElementById("selected-borough");
 var parksList = document.getElementById("parks-list");
 
 
-// 3) Function: runs when user clicks a borough button
+// Function: runs when user clicks a borough button
 
 async function onClickBorough(boroughName) {
 
